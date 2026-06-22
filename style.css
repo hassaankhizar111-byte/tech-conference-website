@@ -52,6 +52,8 @@ section{
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  position: sticky;
+  top: 0;
 
 }
 
@@ -59,6 +61,8 @@ section{
   list-style: none;
   display: flex;
   gap: 1.5rem;
+  margin-right: 4rem;
+
 }
 
 .navbar a {
@@ -67,5 +71,8 @@ section{
   font-weight: 700;
   transition: color 0.3s;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }   
+
+#brand {
+  margin-left: 4rem;
+}
