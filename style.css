@@ -65,7 +65,6 @@ section{
   transition: transform 0.15s ease, box-shadow 0.25s ease, opacity 0.15s ease;
   box-shadow: 0 6px 20px rgba(79,172,254,0.18), inset 0 -2px 6px rgba(0,0,0,0.08);
   animation: pulseGlow 2.2s infinite;
-  background-color: navy;
 }
 
 /* Enhances glow and changes colors on hover */
@@ -110,8 +109,10 @@ section{
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
+  z-index: 1000;
 
 }
 
@@ -131,7 +132,7 @@ section{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }   
 
-#brand {
+.brand {
   margin-left: 4rem;
 }
 
